@@ -1,0 +1,9 @@
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\bin\Debug\TicTacToe_game.exe.config
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\bin\Debug\TicTacToe_game.exe
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\bin\Debug\TicTacToe_game.pdb
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.csprojResolveAssemblyReference.cache
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.Form1.resources
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.Properties.Resources.resources
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.csproj.GenerateResource.Cache
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.exe
+c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.pdb
