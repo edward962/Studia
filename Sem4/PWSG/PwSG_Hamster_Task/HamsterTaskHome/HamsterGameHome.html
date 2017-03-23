@@ -1,0 +1,146 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+
+	
+	
+
+	<div>    
+		<h4>Hamster game - cz.1</h4>
+		<ul>
+			<li><a href="HamsterGameLab.exe" target="_blank">Wzór programu</a></li> 
+			<li>Etap 1 - wygląd (4 pkt): 
+				<ul>
+					<li>Aplikacja składa się z jednego okna</li>
+					<li>Minimalny rozmiar: 300px x 200px </li>
+					<li>Należy zmienić tytuł okna</li>
+					<li>Pozycja startowa: środek ekranu</li>
+					<li>Okno podzielona na 2 części - możliwa zmiana rozmiaru każdej części za pomocą paska o szerokości 10px</li> 
+					<li>Lewa część okna:
+						<ul>
+							<li>Minimalna szerokość: 100px</li> 
+							<li>Napis "Game speed"</li> 
+							<li>Trackbar do sterowania prędkością gry (wartość początkowa 500ms, wartość minimalna 10ms, wartość maksymalna 1000ms)</li> 
+							<li>Zmiana rozmiaru okna nie zmienia szerokości jego lewej części. Szerokość lewej części można zmieniać jedynie za pomocą paska dzielącego części okna.</li>
+							<li>Należy zwrócić szczególną uwagę na zachowanie się kontrolek w trakcie zmiany rozmiaru okna.  Kontrolki powinny być w odpowiednich miejscach (tak jak w aplikacji przykładowej) niezależnie od rozmiaru okna.</li>
+							</ul>
+					</li>
+					<li>Prawa część okna:
+						<ul>
+							<li>Zawiera 16 przycisków (4 rzędy, 4 kolumny)</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Etap 2 - logika gry (4pkt):
+				<ul>
+					<li>Gra polega na wciskaniu przycisków aktywnych.</li>
+					<li>Przyciski aktywne są podświetlone na niebiesko.</li>
+					<li>Po kliknięciu przycisku	zmienia on kolor na domyślny i przestaje być przyciskiem aktywnym (użytkownik nie dostaje punktów za wciśnięcie go).</li>
+					<li>W każdym momencie powinno być 5 przycisków aktywnych (niebieskich), chyba że użytkownik jakieś wcisnął (w takiej sytuacji w następnym wywołaniu timera należy podświetlić tyle przycisków, aby razem było 5) 
+					<li>W każdym wywołaniu timera spośród przycisków aktywnych powinien być usuwany	przycisk, który był	podświetlony najdłużej spośród wszystkich przycisków aktywnych, a na jego miejsce powinien podświetlić się inny. </li>
+					<li>Za pomocą trackbara z lewej części okna można zmieniać czas między wywoływaniami timera (a więc przysieszać lub zwalniać grę)</li>
+				</ul>
+			</li>
+			<li>Wskazówki do zadania: 
+				<ul>
+					<li>Control.Dock, Control.Anchor</li>
+					<li>TableLayoutPanel</li>
+					<li>SplitContainer</li>	
+					<li>SplitContainer Panel1MinSize</li>
+					<li>SplitContainer FixedPanel</li>
+					<li>TrackBar</li>
+				</ul>
+			</li>
+		<li><b>Uwaga: nie ma możliwości zdobycia punktów za niepełne funkcjonalności</b></li>
+		<li><b>Uwaga: kwestie nierostrzygnięte w opisie należy wzorować na działaniu podanej aplikacji</b></li>
+		</ul>
+		</ul>
+		
+		<h4>Hamster game - cz.2 (domowa)</h4>
+		<ul>
+			<li><a href="HamsterGameHome.exe" target="_blank">Wzór programu</a></li> 
+			<li>Opis zadania: 
+				<ul>
+					<li>Logika gry:
+						<ul>
+							<li>Gra kończy się po n kliknięciach - liczba ta jest ustawiania w "Oknie ustawień" (domyślnie 20)</li>
+							<li>Za wciśnięcie przycisku aktywnego, użytkownik dostaje 50pkt, za wciśnięcie przycisku nieaktywnego
+							odejmuje mu się 100pkt.</li>
+							<li>Na dole okna znajduje się pasek, na którym wyświetlany jest wynik. Jeśli użytkownik wciśnie zły przycisk 
+							(nieaktywny), tło za licznikiem wyniku zmienia kolor na czerwony</li>
+						</ul>
+					</li>
+					<li>Lewa część okna:
+						<ul>
+							<li>Przycisk "Start": po naciśnieciu rozpoczyna się gra, a napisa na przycisku zmienia się na "Pause". Gdy w trakcie gry wciśniemy przycisk, gra się zatrzymuje, a napis na przycisku zmienia się ponownie na "Start"</li>
+							<li>Przyscisk "Settings" otwiera nowe okno - "Okno ustawień"</li>
+							<li>Lista wyników</li>
+							<li>Po zakończeniu gry pojawia się "Okno końca gry"</li>
+						</ul>
+					</li>
+					<li>Lista wyników
+						<ul>
+							<li>Lista wyników zawierająca kolumny Name i Score oraz włączone linie siatki.</li>	
+							<li>Do listy wyników jest wpisywane imię gracza oraz jego wynik po zakończeniu gry</li>
+							<li>Lista wyników jest zapamiętywana nawet po restarcie aplikacji.</li>
+							<li>Po naciśnięciu PPM na liście wyników pojawia się menu z opcją "Clear", która czyści listę</li>	
+							<li>Wpisy na liście powinny być posortowane malejąco wg wyniku (czyli wg drugiej kolumny)</li>
+						</ul>
+					</li>
+					<li>Okno ustawień
+						<ul>
+							<li>Combobox pozwalający zmianę rozmiaru planszy. Do wyboru co najmniej trzy opcje: 4x4, 6x6, 8x8..</li>
+							<li>Kontrolka do zmiany liczby przycisków aktywnych.</li>
+							<li>Radiobutton do zmieniana typu przycisków: kwadratowe lub okrągłe</li>
+							<li>Kontrolka do zmieniania liczby kliknięć potrzebnych do ukończenia gry</li>
+							<li>Przycisk OK - po wciśnięciu zmiany są zapamiętywane. Reaguje na klawisz ENTER</li>
+							<li>Przycisk Cancel - po wciśnieciu zmiany są ignorowane. Reaguje na klawisz ESC</li>
+							<li>Okno ma stały rozmiar</li>
+							<li>Okno nie posiada przycisków do minimalizacji oraz maksymalizacji</li>
+							<li>Okno nie wyświetla się na pasku zadań (na pasku zawsze powinna być tylko jedna ikonka)</li>
+							<li>Gdy okno ustawień jest na ekranie, okno główne gry nie reaguje na kliknięcia</li>
+							<li>Zmiany powinny być zapamiętywane (np. przy drugim wywołaniu okna, powinny wyświetlić się 
+							wartości wpisane w pierwszym wywołaniu).</li>
+						</ul>
+					</li>
+					<li>Okno końca gry
+						<ul>
+							<li>Informuje użytkownika o uzyskanym wyniku</li>
+							<li>Okno ma stały rozmiar</li>
+							<li>Okno nie zawiera ControlBoxa (przycisków maksymalizacji, minimalizacji, wyłączania w prawym górnym rogu oraz ikonki w lewym górnym rogu)</li>
+							<li>Okno posiada pole do wpisywania imienia</li>
+							<li>Przycisk OK - jest nieaktywny jeśli użytkownik nie wpisał imienia lub wpisał same białe znaki. Reaguje na ENTER.</li>
+							<li>Gdy okno końca gry jest na ekranie, okno główne gry nie reaguje na kliknięcia</li>
+						</ul>
+					</li>
+					<li>Okrągłe przyciski:
+						<ul>
+							<li>W oknie ustawień można zmienić przyciśki na okrągłe.</li>
+							<li>Należy zwrócić uwagę, aby przycisk reagował tylko na obszar przycisku (nie na prostokąt dookoła).</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Wskazówki do zadania: 
+				<ul>
+					<li>Forms.DialogResult</li>
+					<li>NumericUpDown</li>  
+					<li>ListView</li>  
+					<li>AcceptButton, CancelButton</li>
+					<li>StatusStrip, StatusLabel</li>
+				</ul>
+			</li>
+			<li>Punktacja:
+				<ul>
+					<li><i>Uwaga: zachowanie funkcjonalności z części 1 jest warunkiem koniecznym do oceny 2 części zadania</i></li>
+					<li>Logika gry - 2 pkt</li>
+					<li>Okno ustawień - 3 pkt</li>
+					<li>Kończenie gry po n kliknięciach i okno końca gry - 2 pkt</li>
+					<li>Zmiana rozmiaru planszy - 2 pkt</li>
+					<li>Lista wyników - 3 pkt</li> 
+				</ul>
+			</li>
+			<li><b>Uwaga: kwestie nierostrzygnięte w opisie należy wzorować na działaniu podanej aplikacji</b></li>
+		</ul>
+	
+</div></body></html>

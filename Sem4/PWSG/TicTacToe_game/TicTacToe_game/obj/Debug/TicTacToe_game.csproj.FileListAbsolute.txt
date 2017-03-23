@@ -7,3 +7,13 @@ c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_g
 c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.csproj.GenerateResource.Cache
 c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.exe
 c:\users\edward\documents\visual studio 2015\Projects\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.pdb
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\bin\Debug\TicTacToe_game.exe.config
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.exe
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.pdb
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\bin\Debug\TicTacToe_game.exe
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\bin\Debug\TicTacToe_game.pdb
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.csprojResolveAssemblyReference.cache
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.Form1.resources
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.Properties.Resources.resources
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.csproj.GenerateResource.Cache
+D:\Studia\Sem4\PWSG\TicTacToe_game\TicTacToe_game\obj\Debug\TicTacToe_game.Form2.resources

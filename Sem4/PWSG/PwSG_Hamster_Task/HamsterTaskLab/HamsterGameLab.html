@@ -1,0 +1,59 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+
+	
+	
+
+	<div>    
+		<h4>Hamster game - cz.1</h4>
+		<ul>
+			<li><a href="HamsterGameLab.exe" target="_blank">Wzór programu</a></li> 
+			<li>Etap 1 - wygląd (4 pkt): 
+				<ul>
+					<li>Aplikacja składa się z jednego okna</li>
+					<li>Minimalny rozmiar: 300px x 200px </li>
+					<li>Należy zmienić tytuł okna</li>
+					<li>Pozycja startowa: środek ekranu</li>
+					<li>Okno podzielona na 2 części - możliwa zmiana rozmiaru każdej części za pomocą paska o szerokości 10px</li> 
+					<li>Lewa część okna:
+						<ul>
+							<li>Minimalna szerokość: 100px</li> 
+							<li>Napis "Game speed"</li> 
+							<li>Trackbar do sterowania prędkością gry (wartość początkowa 500ms, wartość minimalna 10ms, wartość maksymalna 1000ms)</li> 
+							<li>Zmiana rozmiaru okna nie zmienia szerokości jego lewej części. Szerokość lewej części można zmieniać jedynie za pomocą paska dzielącego części okna.</li>
+							<li>Należy zwrócić szczególną uwagę na zachowanie się kontrolek w trakcie zmiany rozmiaru okna.  Kontrolki powinny być w odpowiednich miejscach (tak jak w aplikacji przykładowej) niezależnie od rozmiaru okna.</li>
+							</ul>
+					</li>
+					<li>Prawa część okna:
+						<ul>
+							<li>Zawiera 16 przycisków (4 rzędy, 4 kolumny)</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Etap 2 - logika gry (4pkt):
+				<ul>
+					<li>Gra polega na wciskaniu przycisków aktywnych.</li>
+					<li>Przyciski aktywne są podświetlone na niebiesko.</li>
+					<li>Po kliknięciu przycisku	zmienia on kolor na domyślny i przestaje być przyciskiem aktywnym (użytkownik nie dostaje punktów za wciśnięcie go).</li>
+					<li>W każdym momencie powinno być 5 przycisków aktywnych (niebieskich), chyba że użytkownik jakieś wcisnął (w takiej sytuacji w następnym wywołaniu timera należy podświetlić tyle przycisków, aby razem było 5) 
+					<li>W każdym wywołaniu timera spośród przycisków aktywnych powinien być usuwany	przycisk, który był	podświetlony najdłużej spośród wszystkich przycisków aktywnych, a na jego miejsce powinien podświetlić się inny. </li>
+					<li>Za pomocą trackbara z lewej części okna można zmieniać czas między wywoływaniami timera (a więc przysieszać lub zwalniać grę)</li>
+				</ul>
+			</li>
+			<li>Wskazówki do zadania: 
+				<ul>
+					<li>Control.Dock, Control.Anchor</li>
+					<li>TableLayoutPanel</li>
+					<li>SplitContainer</li>	
+					<li>SplitContainer Panel1MinSize</li>
+					<li>SplitContainer FixedPanel</li>
+					<li>TrackBar</li>
+				</ul>
+			</li>
+		<li><b>Uwaga: nie ma możliwości zdobycia punktów za niepełne funkcjonalności</b></li>
+		<li><b>Uwaga: kwestie nierostrzygnięte w opisie należy wzorować na działaniu podanej aplikacji</b></li>
+		</ul>
+		</ul>
+	
+</div></body></html>
